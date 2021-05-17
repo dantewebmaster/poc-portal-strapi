@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  background: #ddd;
+  padding: 16px;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container main {
+  background: #478b07;
+  padding: 8rem;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+.main img {
+  width: 200px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 16px;
+}

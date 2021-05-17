@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_teste_contacts",
+  "info": {
+    "name": "contacts",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

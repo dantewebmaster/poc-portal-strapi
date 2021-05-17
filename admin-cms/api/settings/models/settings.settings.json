@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "name": "settings",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "theme_colors": {
+      "type": "dynamiczone",
+      "components": [
+        "teste.colors"
+      ]
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
