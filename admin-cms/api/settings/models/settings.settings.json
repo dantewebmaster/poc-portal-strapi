@@ -39,6 +39,9 @@
     },
     "email": {
       "type": "email"
+    },
+    "email_footer": {
+      "type": "email"
     }
   }
 }

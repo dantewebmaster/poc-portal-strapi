@@ -6,9 +6,9 @@ Monorepo com a POC do portal usando CMS Strapi
 
 Acesse a pasta admin-cms e rode os comandos
 `yarn install` para instalar as dependencias do projeto e em seguida
-`yarn develop` para iniciar o CMS
+`yarn develop --watch-admin` para iniciar o CMS
 
-Acesse a url http://localhost:1337/admin
+Acesse a url http://localhost:8000/
 
 ## Rodar o projeto web consumer da API
 
